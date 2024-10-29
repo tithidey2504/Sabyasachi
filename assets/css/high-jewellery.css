@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", serif;
+}
+/* nav bar */
+.nav {
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  height: 20vh;
+}
+.nav:hover {
+  background-color: #b1b1b1;
+}
+/* Ensure no underline for the link */
+.logo a {
+  text-decoration: none !important; /* Override any potential conflicts */
+  color: inherit; /* Inherit color to avoid resetting to link color */
+}
+
+/* Optional: Additional styling for h1 */
+.logo h1 {
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-family: "Trade Winds", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: black; /* Ensure the text is black */
+  padding-top: 20px;
+}
+
+.menu ul {
+  display: inline;
+}
+
+.menu ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.menu ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.menu ul li a:hover {
+  color: #83731b;
+  border-bottom: 2px solid black;
+}
+
+.ban {
+  background: url("../images/ban.jpg");
+  height: 70vh;
+  padding-top: 410px;
+  color: white;
+  text-align: center;
+}
+
+.ban h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+/* text */
+.text {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  line-height: 1.8; /* Adjust line spacing for readability */
+  color: #333; /* Choose a dark text color */
+  width: 60%; /* Adjust width to control line breaks */
+  margin-left: 340px;
+  margin-right: 400px;
+}
+.text img {
+  align-items: center;
+  height: 16px;
+  margin-top: 40px;
+}
+
+.img {
+  text-align: center;
+}
+
+/* caption */
+.caption {
+  text-align: center;
+  margin-top: 60px;
+  font-family: "Arial", sans-serif;
+}
+
+.caption h2 {
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.caption p {
+  font-size: 1rem; /* Font size for the subtitle */
+  font-style: italic; /* Italicizes the subtitle */
+  margin-bottom: 20px;
+}
+
+.explore1 a {
+  text-decoration: none;
+}
+
+.explore1 button {
+  padding: 10px 30px; /* Padding inside the button */
+  background-color: black; /* Button background color */
+  color: white; /* Button text color */
+  border: none;
+  font-size: 1rem; /* Font size of button text */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+  height: 50px;
+  margin-top: 34px;
+  margin-bottom: 60px;
+}
+
+.explore1 button:hover {
+  background-color: #333; /* Darker background color on hover */
+}
+
+.ban1 {
+  background: url("../images/ban1.jpg");
+  height: 70vh;
+  padding-top: 410px;
+  color: white;
+  text-align: center;
+}
+/* footer */
+/* Footer Styling */
+.footer {
+  background-color: #111;
+  padding: 50px 0;
+  color: #fff;
+  font-family: "Arial", sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-column {
+  flex: 1;
+  margin: 0 15px;
+}
+
+.footer-column h4 {
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #b1b1b1;
+}
+
+.footer-column ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #fff;
+}
+
+.footer-column ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

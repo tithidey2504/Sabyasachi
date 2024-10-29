@@ -1,0 +1,313 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", serif;
+}
+/* nav bar */
+.nav {
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  height: 20vh;
+}
+.nav:hover {
+  background-color: #b1b1b1;
+}
+/* Ensure no underline for the link */
+.logo a {
+  text-decoration: none !important; /* Override any potential conflicts */
+  color: inherit; /* Inherit color to avoid resetting to link color */
+}
+
+/* Optional: Additional styling for h1 */
+.logo h1 {
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-family: "Trade Winds", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: black; /* Ensure the text is black */
+  padding-top: 20px;
+}
+
+.menu ul {
+  display: inline;
+}
+
+.menu ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.menu ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.menu ul li a:hover {
+  color: #83731b;
+  border-bottom: 2px solid black;
+}
+
+/* BANNER */
+.ban {
+  background: url("../images/picture.jpg");
+  height: 70vh;
+  padding-top: 410px;
+  color: white;
+  text-align: center;
+}
+
+.ban h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.text {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  line-height: 1.8; /* Adjust line spacing for readability */
+  color: #333; /* Choose a dark text color */
+  width: 60%; /* Adjust width to control line breaks */
+  margin-left: 340px;
+  margin-right: 400px;
+}
+.text img {
+  align-items: center;
+  height: 16px;
+  margin-top: 40px;
+}
+
+.img {
+  text-align: center;
+}
+/* banner1 */
+.ban1 {
+  background: url("../images/clutch.jpg");
+  height: 70vh;
+  padding-top: 350px;
+  color: white;
+  text-align: center;
+}
+
+.ban1 h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.explore {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: 2px solid white;
+  background-color: white;
+  color: black;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.explore:hover {
+  background-color: white;
+  color: black;
+}
+
+.ban2 {
+  background: url("../images/crossbody.jpg");
+  height: 70vh;
+  width: 80%;
+  padding-top: 350px;
+  color: white;
+  text-align: center;
+  margin: auto;
+  margin-top: 55px;
+}
+/* caption */
+/* caption */
+.caption {
+  text-align: center;
+  margin-top: 60px;
+  font-family: "Arial", sans-serif;
+}
+
+.caption h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+}
+
+.explore1 a {
+  text-decoration: none;
+}
+
+.explore1 button {
+  padding: 10px 30px; /* Padding inside the button */
+  background-color: black; /* Button background color */
+  color: white; /* Button text color */
+  border: none;
+  font-size: 1rem; /* Font size of button text */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+  height: 50px;
+
+  margin-bottom: 60px;
+}
+
+.explore1 button:hover {
+  background-color: #333; /* Darker background color on hover */
+}
+.ban3 {
+  background: url("../images/sling-bag.jpg");
+  height: 70vh;
+  padding-top: 350px;
+  color: white;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.ban3 h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.ban4 {
+  background: url("../images/bucket-bag.jpg");
+  height: 70vh;
+  width: 80%;
+  margin: auto;
+}
+
+.bag-gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Space between the two items */
+  margin-top: 50px; /* Space from the top */
+}
+
+.bag-item {
+  width: 45%; /* To make both items take up equal space */
+  text-align: center;
+}
+
+.bag-item img {
+  width: 100%; /* Make the image take full width of the container */
+  height: auto; /* Maintain image proportions */
+  border-radius: 5px; /* Optional: to add rounded corners */
+  height: 90vh;
+}
+
+h3 {
+  font-size: 1.3rem;
+  margin: 20px 0 10px 0;
+}
+
+.explore2-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.explore2-button:hover {
+  background-color: #333; /* Change button color on hover */
+}
+
+.ban5 {
+  background: url("../images/belts.jpg");
+  height: 70vh;
+  padding-top: 350px;
+  color: white;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.ban5 h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.explore {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: 2px solid white;
+  background-color: white;
+  color: black;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.explore:hover {
+  background-color: white;
+  color: black;
+}
+
+.ban6 {
+  background: url("../images/fine-eyewere.jpg");
+  height: 70vh;
+  padding-top: 350px;
+  color: white;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.ban6 h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+/* footer */
+/* Footer Styling */
+.footer {
+  background-color: #111;
+  padding: 50px 0;
+  color: #fff;
+  font-family: "Arial", sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-column {
+  flex: 1;
+  margin: 0 15px;
+}
+
+.footer-column h4 {
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #b1b1b1;
+}
+
+.footer-column ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #fff;
+}
+
+.footer-column ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
